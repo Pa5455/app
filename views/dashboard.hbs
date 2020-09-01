@@ -1,25 +1,36 @@
 {{> menu id="dashboard"}}
 
-{{#each playlists}}
+{{#each assessments}}
   <section class="ui segment">
     <h2 class="ui header">
       {{title}}
     </h2>
+    <p> Total Duration: {{duration}} </p>
     <table class="ui table">
       <thead>
         <tr>
-          <th>Song</th>
-          <th>Artist</th>
+          <th>Weight</th>
+          <th>Chest</th>
+          <th>Thigh</th>
+          <th>UpperArm</th>
+          <th>Waist</th>
+          <th>Hips</th>
         </tr>
       </thead>
       <tbody>
-        {{#each songs}}
+        {{#each measurements}}
           <tr>
             <td>
               {{title}}
             </td>
             <td>
               {{artist}}
+            </td>
+            <td>
+              {{genre}}
+            </td>
+            <td>
+              {{duration}}
             </td>
           </tr>
         {{/each}}

@@ -1,5 +1,5 @@
 "use strict";
 
-const playlistCollection = require("./playlist-store.json").playlistCollection;
+const assessmentcollection = require("./assessment-store.json").assessmentcollection ;
 
-module.exports = playlistCollection;
+module.exports = assessmentcollection ;

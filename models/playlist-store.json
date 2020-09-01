@@ -1,36 +1,79 @@
 {
-  "playlistCollection": [
+  "assessmentcollection": [
     {
-      "title": "Beethoven Sonatas",
-      "songs": [
+      "id" : "01",
+      "title": "Week 1",
+      "duration": 35,
+      "measurements": [
         {
+          "id" : "04",
           "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 5
         },
         {
+          "id" : "05",
           "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 6
         },
         {
+          "id" : "06",
           "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 4
         }
       ]
     },
     {
-      "title": "Beethoven Concertos",
-      "songs": [
+      "id" : "02",
+      "title": "Week 2",
+      "duration": 23,
+      "measurements": [
         {
+          "id" : "07",
           "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 8
         },
         {
+          "id" : "08",
           "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 3
         },
         {
+          "id" : "09",
           "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id" : "03",
+      "title": "BWeek 3",
+      "duration": 67,
+      "measurements": [
+        {
+          "id" : "10",
+          "title": "Opus 34: Six variations on a theme in F major",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 11
+        },
+        {
+          "id" : "11",
+          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 45
         }
       ]
     }
