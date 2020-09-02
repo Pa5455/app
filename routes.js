@@ -2,14 +2,15 @@
 
 const express = require("express");
 const router = express.Router();
-const assessmentCollection = require('./models/assessment-store.js')
+
 
 const dashboard = require("./controllers/dashboard.js");
 const about = require("./controllers/about.js");
+const assessmentlist = require('./controllers/assessmentlist.js');
 
 router.get("/", dashboard.index);
 router.get("/dashboard", dashboard.index);
 router.get("/about", about.index);
-router.get('/assessmentlist/:id', assessmentlist);
+router.get('/assessmemtlist/:id', assessmentlist.index)
 
 module.exports = router;

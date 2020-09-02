@@ -1,11 +1,10 @@
 {
-  "assessmentcollection": [
+  "assessmentCollection": [
     {
       "id" : "01",
       "week": "Week 1",
       "measurements": [
         {
-          "id" : "04",
           "weight": "100",
           "chest": "42",
           "thigh": "14",
