@@ -5,6 +5,7 @@
       "week": "Week 1",
       "measurements": [
         {
+          "id" : "04",
           "weight": "100",
           "chest": "42",
           "thigh": "14",
@@ -19,6 +20,7 @@
       "week": "Week 2",
       "measurements": [
         {
+          "id" : "05",
           "weight": "90",
           "chest": "38",
           "thigh": "20",
@@ -34,6 +36,7 @@
       "week": "Week 3",
       "measurements": [
         {
+          "id" : "06",
           "weight": "120",
           "chest": "44",
           "thigh": "22",
