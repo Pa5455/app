@@ -3,31 +3,12 @@
     {
       "id" : "01",
       "week": "Week 1",
-      "duration": 35,
       "measurements": [
         {
           "id" : "04",
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
-          "upperarm": 5,
-          "waist": 5,
-          "hips": 5
-        },
-        {
-          "id" : "05",
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
-          "upperarm": 5,
-          "waist": 5,
-          "hips": 5
-        },
-        {
-          "id" : "06",
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
+          "weight": "100",
+          "chest": "42",
+          "thigh": "14",
           "upperarm": 5,
           "waist": 5,
           "hips": 5
@@ -37,54 +18,29 @@
     {
       "id" : "02",
       "week": "Week 2",
-      "duration": 23,
       "measurements": [
         {
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
-          "upperarm": 5,
-          "waist": 5,
-          "hips": 5
-        },
-        {
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
-          "upperarm": 5,
-          "waist": 5,
-          "hips": 5
-        },
-        {
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
-          "upperarm": 5,
-          "waist": 5,
-          "hips": 5
+          "weight": "90",
+          "chest": "38",
+          "thigh": "20",
+          "upperarm": "5",
+          "waist": "36",
+          "hips": "40"
         }
+        
       ]
     },
     {
       "id" : "03",
       "week": "Week 3",
-      "duration": 67,
       "measurements": [
         {
-          "id" : "10",
-          "weight": "Piano Sonata No. 3",
-          "chest": "Beethoven",
-          "thigh": "Classical",
-          "upperarm": 5,
-          "waist": 5,
-          "hips": 5
-        },
-        {
-          "id" : "11",
-          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 45
+          "weight": "120",
+          "chest": "44",
+          "thigh": "22",
+          "upperarm": "6",
+          "waist": "40",
+          "hips": "42"
         }
       ]
     }
