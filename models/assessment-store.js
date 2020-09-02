@@ -1,5 +1,5 @@
 "use strict";
 
-const assessmentcollection = require("./assessment-store.json").assessmentcollection ;
+const assessmentCollection = require("./assessment-store.json").assessmentCollection ;
 
-module.exports = assessmentcollection ;
+module.exports = assessmentCollection ;

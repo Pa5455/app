@@ -3,13 +3,13 @@
 const logger = require('../utils/logger');
 const assessmentCollection = require('../models/assessment-store.js');
 
-const assessmentslist = {
+const assessmentlist = {
   index(request, response) {
     const viewData = {
       title: 'Assessments',
     };
-    response.render('assessmentslist', viewData);
+    response.render('assessmentlist', viewData);
   },
 };
 
-module.exports = assessmentslist;
+module.exports = assessmentlist;
