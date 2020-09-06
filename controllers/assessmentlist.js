@@ -15,6 +15,7 @@ const assessmentlist = {
     response.render('assessmentlist', viewData);
   },
 
+
   deleteAssessment(request, response) {
     const assessmentlistId = request.params.id;
     const assessmentId = request.params.assessmentid;

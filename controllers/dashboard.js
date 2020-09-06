@@ -26,10 +26,6 @@ const dashboard = {
     const newAssessmentList = {
       id: uuid.v1(),
       memberName: request.body.memberName,
-      memberHeight: request.body.memberHeight,
-      memberStartWeight: request.body.memberStartWeight,
-      BMI: request.body.BMI,
-      assessmentCount: request.body.assessmentCount,
       assessments: [],
     };
     assessmentStore.addAssessmentlist(newAssessmentList);
