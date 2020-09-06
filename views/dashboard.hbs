@@ -1,12 +1,8 @@
 {{> menu id="dashboard"}}
 
-{{#each assessments}}
-  <section class="ui segment">
-    <h2 class="ui header">
-      {{week}}
-    </h2>
- <a href="/assessmentlist/{{id}}"> View </a>
-  </section>
-{{/each}}
+<section class="ui segment">
+  {{> listassessmentlists}}
+  {{> addassessmentlist}}
+</section>
 
 
